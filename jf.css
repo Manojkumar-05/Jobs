@@ -1,0 +1,167 @@
+body {
+    background-color: #a7beae;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: grey;
+    color: black;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: black;
+}
+footer {
+    background: #00000099;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0; /* Position the footer at the bottom */
+  }
+  
+  .footer-top-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 0 auto;
+    padding: 16px;
+    min-height: 160px;
+    max-width: 800px;
+    flex: 1; /* Allow the footer top to grow to fill available space */
+  }
+  
+  .footer-top-wrapper > section {
+    width: 180px;
+  }
+  
+  footer h2 {
+    text-align: left;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 16px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  footer menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer menu li {
+    margin-bottom: 16px;
+  }
+  
+  footer .logo {
+    width: 180px;
+    margin-bottom: 8px;
+  }
+  
+  footer .social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 180px;
+    margin-left: -420px;
+    
+  }
+  
+  footer .social-links img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    margin: 8px;
+  }
+  footer .social-links a:hover{
+    border-radius: 50%;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 91%);
+    transition: 0.5s;
+  }
+  footer .social-links a[href="https://www.linkedin.com/in/teamgrandline/"]:hover {
+    background-color: #4e66ee;
+    background-image: linear-gradient(43deg, #4e66ee 61%, #ffffff 100%);
+  }
+  footer .social-links a[href="https://twitter.com/Team_GrandLine/"]:hover {
+    background-color: #4e66ee;
+    background-image: linear-gradient(43deg, #4e66ee 40%, #000000 100%);
+  }
+  .footer-bottom {
+    height: 60px;
+    margin-top: auto; /* Push the footer bottom to the bottom of the viewport */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 4px;
+  }
+  
+  .footer-bottom > small {
+    font-size: 16px;
+    margin: 0 4px;
+  }
